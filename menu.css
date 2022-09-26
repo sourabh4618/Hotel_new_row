@@ -1,0 +1,112 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.div1{
+    height: 1500px;
+    background: url(Images/pexels-pixabay-258154.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div11{
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0,0.5);
+    text-align: center;
+}
+.logo_img{
+    height: 20%;
+    width: 10%;
+    float: left;
+    margin: 10px;
+    position: fixed;
+    z-index: 1;
+}
+.div11 h1{
+    color: white;
+    font-size: 60px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+nav{
+    display: inline-block;
+    font-weight: 500;
+}
+li{
+   display: inline-block;
+}
+nav a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+nav a:hover{
+ background-color: rgb(10, 80, 80);
+}
+
+
+.div1 .div12{
+    height: 100%;
+    width: 80%;
+    background-color: rgba(128, 128, 128,0.8);
+    margin-top: 200px;
+    /* margin-left: 15%; */
+    border-radius: 30px;
+    /* position: absolute; */
+}
+.div1 .div12 .div121{
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px 20px 0px 0px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 10px;
+}
+.menus{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 5%;
+}
+.div1 .div12 .div122{
+    height: 100%;
+    width: 46%;
+    background-color: rgba(236, 16, 0, 0.2);
+    /* float: left;
+    margin: 45px 0px 45px 50px; */
+}
+.div1 .div12 .div122 h3{
+    font-size: 35px;
+    color:gold;
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: -1px -1px 1px black;
+}
+/* .div1 .div12 .div123{
+    height: 400px;
+    width: 43%;
+    background-color: bisque;
+    float: right;
+    margin: 45px 50px 45px 0px;
+}
+.div1 .div12 .div123 h3{
+    font-size: 30px;
+    color: black;
+} */
+.div12 .menus .div122 table,td,tr{
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-shadow: -1px -1px 1px black;
+}
+
+

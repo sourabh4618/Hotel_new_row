@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.div1{
+    height: 100%;
+    width: 100%;
+    background-image: url(Images/pexels-cameron-casey-1334605.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.div11{
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0,0.5);
+    text-align: center;
+}
+.logo_img{
+    height: 20%;
+    width: 10%;
+    float: left;
+    margin: 10px;
+    position: fixed;
+    z-index: 1;
+}
+.div11 h1{
+    color: white;
+    font-size: 60px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+nav{
+    display: inline-block;
+    font-weight: 500;
+}
+li{
+   display: inline-block;
+}
+nav a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+nav a:hover{
+ background-color: rgb(10, 80, 80);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cmnt{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration:overline underline;
+    font-size: 40px;
+}
+.dsply_cmnt{
+    width: 90%;
+    height: fit-content;
+    padding: 5px 0px;
+    margin:2% 5% 0%;
+    background-color: rgba(149, 145, 212, 0.5);
+    border-radius: 15px;
+    color: white;
+    text-shadow: -2px -2px 2px black;
+}
+.cmt_name{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 60px;
+    letter-spacing: 3px;
+    text-align: center;
+    
+}
+/* .cmt_email{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    letter-spacing: .25px;
+} */
+td,table,tr{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    letter-spacing: .25px;
+    padding: 10px;
+}
+/* .all_cmnt{
+  width: 80%;
+  height: 90%;
+  background-color:#e3d19f ;
+  margin:2% 5% ;
+ 
+  box-shadow: 10px 12px 14px -4px rgba(0,0,0,0.6),-14px -12px 14px -4px rgba(0,0,0,0.6),14px -12px 14px -4px rgba(0,0,0,0.6),-14px 13px 14px -4px rgba(0,0,0,0.6);
+
+} */
+
+.all_cmnt{
+    background-color: rgba(255, 140, 0,0.4);
+    height: 100%;
+    width: 80%;
+    padding: 30px 20px 30px 20px ;
+    margin: 200px 0px 50px 0px;
+    border-radius: 30px;
+    
+}

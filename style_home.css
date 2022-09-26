@@ -1,0 +1,380 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+.div1{
+    height: 660px;
+    background: url(Images/pexels-gustavo-rodrigues-1755288.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.div1_h3{
+    font-size: 80px;
+    color: darkorange;
+    padding-top: 300px;
+    text-transform:uppercase;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.div11{
+    position: fixed;
+    width: 100%;
+    height: 150px;
+    background-color: rgba(0, 0, 0,0.5);
+    text-align: center;
+}
+.logo_img{
+    height: 20%;
+    width: 12%;
+    float: left;
+    margin: 10px;
+    position: fixed;
+    z-index: 1;
+}
+.div11 h1{
+    color: white;
+    font-size: 60px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+nav{
+    display: inline-block;
+    font-weight: 500;
+}
+li{
+   display: inline-block;
+}
+nav a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+nav a:hover{
+ background-color: rgb(10, 80, 80);
+}
+
+
+.div2{
+    height: 350px;
+    background:linear-gradient(to bottom, #70707081, #454545a1), url(Images/food8.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    overflow: hidden;
+}
+.div2 .div21{
+    height: 350px;
+    width: 40%;
+    color: white;
+    padding: 30px;
+    
+    text-shadow: -2px -2px 2px black;
+}
+.div2 h4{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.div2 p{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+
+
+.div3{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(99, 96, 96, 0.37);
+    /* background-color: rgba(255, 255, 255, 0.527); */
+    overflow: hidden;
+}
+.div3 h3{
+    font-size: 40px;
+    margin: 20px 100% 10px 70px;
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    /* width: 100%; */
+}
+.div3 img{
+    height: 350px;
+    width: 26%;
+    margin: 10px 70px 100% 70px;
+    float: left;
+}
+.div3 p{
+    font-size: 20px;
+    width: 90%;
+    font-weight: 600;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    /* padding: 20px; */
+    /* float: right; */
+}
+
+
+.div4{
+    background-color: bisque;
+    height: 300px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+.div4_p{
+    padding-top: 40px;
+    font-size: 20px;
+}
+.div4 button{
+    padding: 10px;
+    color: white;
+    background-color: rgba(31, 29, 202, 0.6);
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* ---------------------pop up for menu------------------------------ */
+.popup{
+    position: fixed;
+    top: -100vh;
+    left: 0;
+    z-index: 9999999;
+    background: rgba(0,0,0, 0.75);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.9;
+    
+  }
+  .popup .popUpContainer{
+    width: 100%;
+    max-width: 600px;
+    position: fixed; /* To avoid scroll to target */
+    left: 45%;
+    top: -100vh;
+      
+    margin-left: -250px;
+    background-color: rgba(255, 255, 255,0.6);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+    border-radius: 2px;
+    z-index: 9999999; 
+    border-radius: 20px;
+    overflow: scroll;
+  }
+  .popup .popUpContainer::-webkit-scrollbar{
+    display: none;  
+  }
+  .popup .popUpContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .popup h2{
+    padding: 0.5em;
+    text-align: center;
+    color: #444444;
+    margin: 0;
+    font-weight: 900;
+    font-size: 30px;
+    color: black;
+    
+  }
+  .popup img{
+    width: 100%;
+    display: block;
+  }
+  .popup article{
+    height: 310px;
+    /* background-color: rgba(230, 126, 34,0.4); */
+    background-image: url(Images/pexels-pixabay-260922.jpg);
+    background-size: 100% 100%;
+    border-radius: 0px 0px 20px 20px;
+    overflow: scroll;
+  }
+  .popup article::-webkit-scrollbar{
+    display: none;  
+  }
+  .popup article {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  .popup article button{
+    margin-top: 10px;
+  }
+  .popup article label{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: -3px -3px 3px black;
+  }
+  .popup article textarea{
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(255, 255, 255, 0.253);
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 15px;
+  }
+  .popup article button{
+    color: black;
+    background: radial-gradient(white 5%,orange 60%);
+    padding: 10px 5px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* The cancel button on popup dialog */
+  .popup a.closePopUp{
+    font-family: verdana;
+    color: #e74c3c;
+    position: absolute;
+    top: 0.2em;
+    right: 0.375em;
+    margin: 0;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+  /* The cancel button on popup dialog */
+  .popup a:hover{
+    color: #c0392b;
+  }
+  /* When popup is targeted, by clicking on link with #popup in HTML */
+  .popup:target{
+    opacity: 1;
+    top: 0;
+    
+  }
+  .popup .closePopUpOutSide{
+    position: absolute;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999991; 
+  }
+  .popup:target .popUpContainer{
+    top: 50px;
+      -webkit-transition: top  0.35s ease;
+      -moz-transition: top 0.35s ease;
+      -o-transition: top 0.35s ease;
+      transition: top 0.35s ease;
+  }
+  
+/* --------------------------------------------------------------------------------------- */
+
+.top{
+  height: 100%;
+  width: 100%;
+  background-image: url(Images/black.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.top h2{
+  color: white;
+  padding-top: 30px;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.top .hr{
+  color: white;
+  width: 25%;
+  /* border: 5px white; */
+}
+.top .top-flex{
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-between; */
+  padding: 20px;
+
+}
+.top1{
+  height: 350px;
+  width: 300px;
+  background-color: white;
+  margin: 2%;
+  border-radius: 10px;
+  background: radial-gradient(rgba(255, 255, 255, 0.342),rgba(230, 125, 34, 0.425)) ;
+  border: double white;
+}
+.top1 img{
+  height: 200px;
+  width: 90%;
+  margin: 4%;
+}
+.top h6{
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.top p{
+  font-size: 25px;
+  color: gold;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+}
+
+/* .........................................comment................................... */
+
+  .cmnt{
+    text-align: center;
+    margin-top: 10px;
+    text-decoration:overline underline;
+    font-size: 40px;
+    
+}
+.dsply_cmnt{
+    width: 90%;
+    height: fit-content;
+    padding: 5px 0px;
+    margin:2% 5% 0%;
+    background-color: #cfc6b0be;
+    border-radius: 15px;
+}
+.cmt_name{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    letter-spacing: 3px;
+}
+.cmt_email{
+    font-size: 18px;
+    margin-top: 5px;
+    margin-left: 10px;
+    letter-spacing: .25px;
+}
+.cmt_para{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    letter-spacing: .25px;
+    font-weight: 400;
+}
+.all_cmnt{
+  width: 80%;
+  height: 90%;
+  font-family: 'Courier New', Courier, monospace;
+  background-color:#77776e73 ;
+  margin:2% 5% ;
+  /* overflow-y: scroll; */
+  box-shadow: 10px 12px 14px -4px rgba(0,0,0,0.6),-14px -12px 14px -4px rgba(0,0,0,0.6),14px -12px 14px -4px rgba(0,0,0,0.6),-14px 13px 14px -4px rgba(0,0,0,0.6);
+
+}
